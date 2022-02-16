@@ -1,0 +1,12 @@
+.filterField{
+    margin: 0px 20px;
+}
+
+table{
+    width: 60%;
+    text-align: center;
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
