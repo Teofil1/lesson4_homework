@@ -27,7 +27,7 @@ export class PetFilterPipe implements PipeTransform {
       filteredPets = filteredPets.filter(pet => pet.isVaccinated);
     }
 
-    if (filter.sex) {
+    if (filter.sex != '') {
       filteredPets = filteredPets.filter(pet => pet.sex == filter.sex);
     }
 
